@@ -1,0 +1,72 @@
+html{
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 14px;
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.cards{
+
+}
+
+.mheader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.mbody{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px;
+}
+
+button{
+    background-color: gray;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 20px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.cScore{
+    font-size: 100px;
+    margin-top: 0;
+}
+
+.comSelect{
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 10;
+}
+
+.mfooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+/*
+In our UI, the player should be able to play the game by clicking on buttons rather than typing their answer in a prompt.
+a. For now, remove the logic that plays exactly five rounds.
+b. Create three buttons, one for each selection. Add an event listener to the buttons that calls your playRound function with the correct playerSelection every time a button is clicked. (you can keep the console.logs for this step)
+c. Add a div for displaying results and change all of your console.logs into DOM methods.
+d. Display the running score, and announce a winner of the game once one player reaches 5 points.
+*/
